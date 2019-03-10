@@ -1,0 +1,354 @@
+[21-Jan-2019 13:33:36 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:34:46 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:34:51 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:35:50 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:36:31 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 81
+[21-Jan-2019 13:37:44 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 68
+[21-Jan-2019 13:39:46 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 68
+[21-Jan-2019 13:43:39 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 68
+[21-Jan-2019 13:45:06 America/Chicago] PHP Fatal error:  Class 'FbBot' not found in /home2/mccfox/public_html/my-bot/webhook.php on line 10
+[21-Jan-2019 13:47:10 America/Chicago] PHP Fatal error:  Class 'FbBot' not found in /home2/mccfox/public_html/my-bot/webhook.php on line 10
+[21-Jan-2019 13:47:45 America/Chicago] PHP Fatal error:  Class 'FbBot' not found in /home2/mccfox/public_html/my-bot/webhook.php on line 10
+[21-Jan-2019 13:49:57 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:51:05 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:51:09 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:54:08 America/Chicago] PHP Warning:  require_once(/home2/mccfox/public_html/my-bot/vendorcomposer/autoload_real.php): failed to open stream: No such file or directory in /home2/mccfox/public_html/my-bot/vendor/autoload.php on line 5
+[21-Jan-2019 13:54:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/mccfox/public_html/my-bot/vendorcomposer/autoload_real.php' (include_path='.:/opt/php56/lib/php') in /home2/mccfox/public_html/my-bot/vendor/autoload.php on line 5
+[21-Jan-2019 13:54:35 America/Chicago] PHP Warning:  require_once(/home2/mccfox/public_html/my-bot/vendorcomposer/autoload_real.php): failed to open stream: No such file or directory in /home2/mccfox/public_html/my-bot/vendor/autoload.php on line 5
+[21-Jan-2019 13:54:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home2/mccfox/public_html/my-bot/vendorcomposer/autoload_real.php' (include_path='.:/opt/php56/lib/php') in /home2/mccfox/public_html/my-bot/vendor/autoload.php on line 5
+[21-Jan-2019 13:55:23 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 13:59:41 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 14:00:48 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 14:03:33 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 14:03:38 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 14:04:34 America/Chicago] PHP Fatal error:  Class 'GuzzleHttpClient' not found in /home2/mccfox/public_html/my-bot/FbBot.php on line 80
+[21-Jan-2019 14:16:39 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:16:40 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:19:07 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:19:08 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:19:11 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:19:12 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:22:10 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:22:11 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:24:29 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:24:29 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:25:01 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:25:02 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages/` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/ in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:27:47 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:27:47 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:16 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:17 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:18 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:18 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:18 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:18 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:18 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:18 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:18 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:27 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:28 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:28 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:29 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:29 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:29 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:29 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:40 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:41 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:42 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:42 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:42 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:30:42 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:30:42 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:03 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:05 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:05 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:05 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:05 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=great%20you%20are%20atMultipurpose%20Theme%20Design%20and%20Versatility%2C%20Add%20Custom%20Discount%20in%20Magento%202%2C%20Welcome%20to%20Peter%5C%27s%20Hats&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Obj in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:05 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:05 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:23 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:24 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:24 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:25 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:25 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:25 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:25 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:47 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:48 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:48 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:48 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:48 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:32:55 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:32:55 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:33:53 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:33:55 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:33:55 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:33:55 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:33:55 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=great%20you%20are%20atMigrate%20your%20symfony%20application&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/P in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:33:55 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:33:55 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:02 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:04 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:04 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:04 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:04 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:04 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:04 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:09 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:10 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:11 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=I%20can%20not%20Understand%20you%20ask%20me%20about%20blogs&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Pr in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:11 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:11 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[21-Jan-2019 14:34:11 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[21-Jan-2019 14:34:11 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[09-Mar-2019 22:39:56 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[09-Mar-2019 22:39:58 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[09-Mar-2019 22:39:58 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[09-Mar-2019 22:39:58 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages?recipient%5Bid%5D=2341309726155654&message%5Btext%5D=great%20you%20are%20atAdd%20Custom%20Discount%20in%20Magento%202%2C%20Multipurpose%20Theme%20Design%20and%20Versatility%2C%20Welcome%20to%20Peter%5C%27s%20Hats&access_token=EAAFKk79bqkYBANTcEbgDrbNmNd5lIaOG9bw1uDsmh7qDdwZCWamgRSg7ijszZCUZAe7ICG17YwDcEGDVvBb0ENtMd94xBkT1dpZAS9ZBxTysP0heClbbr7wCueibZBGGSvCRzWzmMPIjZCz7NOu3CZAkZCzty6HuxTm4QqobsuZBqe228a3PLMPRLDRLXUW9fVvygZD` resulted in a `400 Bad Request` response:
+{"error":{"message":"(#100) No matching user found","type":"OAuthException","code":100,"error_subcode":2018001,"fbtrace_ (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Obj in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[09-Mar-2019 22:39:58 America/Chicago] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
+[09-Mar-2019 22:39:58 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+[09-Mar-2019 22:39:59 America/Chicago] PHP Fatal error:  Uncaught exception 'GuzzleHttp\Exception\ClientException' with message 'Client error: `POST https://graph.facebook.com/v2.6/me/messages` resulted in a `400 Bad Request` response:
+{"error":{"message":"An active access token must be used to query information about the current user.","type":"OAuthExce (truncated...)
+' in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/src/Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/promises/s in /home2/mccfox/public_html/my-bot/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
